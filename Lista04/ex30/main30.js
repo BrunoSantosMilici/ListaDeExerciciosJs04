@@ -20,7 +20,8 @@ function calc(){
       if (Val3>seg) {
         ter = Val3
       } else {
-        ter = segseg = Val3
+        ter = seg
+        seg = Val3
       }  
     }
 
